@@ -1,0 +1,42 @@
+body {
+  background-color: #FFA3F4;
+  font-family: Times New Roman, sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+.contenedor {
+  width: 80%;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.contador-circular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.unidad {
+  margin-left: 10px;
+}
+
+#regalo-sorpresa {
+  display: none;
+  background-color: #FFA3F4;
+  color: #000;
+  padding: 5px 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#mensaje-regalo {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
